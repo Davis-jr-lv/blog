@@ -1,28 +1,20 @@
-import React from 'react'
-import {
-    Box,
-    Flex,
-    Text,
-    UnorderedList,
-    ListItem,
-    LinkOverlay,
-  } from '@chakra-ui/react';
-  
-  export const Header = () =>{
-    return(
-        <Box bg='white' borderBottom='1px solid #777'>
-            <Flex>
-                <Box>
-                    <Text>Davis Jr</Text>
-                </Box>
-                <Box>
-                    <UnorderedList>
-                        <ListItem><LinkOverlay href="">Home</LinkOverlay></ListItem>
-                        <ListItem><LinkOverlay href="">Sobre Mi</LinkOverlay></ListItem>
-                        <ListItem><LinkOverlay href="">Contactar</LinkOverlay></ListItem>
-                    </UnorderedList>
-                </Box>
-            </Flex>
-        </Box>
-    ) ;
-}
+import * as React from "react"
+import { Box, Flex, UnorderedList, ListItem, Text } from "@chakra-ui/react"
+
+const Header1 = () => (
+    <Box paddingTop='1rem' paddingBottom='1rem' bg='blue'>
+        <Flex>
+            <Box>
+                <Text>Davis jr</Text>
+            </Box>
+            <Box>
+                <UnorderedList display='flex'>
+                    <ListItem>Blog</ListItem>
+                    <ListItem>Redes</ListItem>
+                    <ListItem>Contacto</ListItem>
+                </UnorderedList>
+            </Box>
+        </Flex>
+    </Box>
+  )
+export default Header1
