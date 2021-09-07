@@ -6,10 +6,17 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Box } from "@chakra-ui/react"
 import Header1 from "../components/Delivery/header/index"
+import Hero from "../components/Hero/index"
+import Span from "../components/Span/index"
 
 const IndexPage = () => (
   <>
-    <Header1/>
+  
+  <Layout>
+    
+  </Layout>
+  <Hero/>
+  <Span/>
   </>
 )
 
