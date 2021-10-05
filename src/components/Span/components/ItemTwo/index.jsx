@@ -23,7 +23,7 @@ const ItemTwo = () => {
             </Link>
           </Box>
           <Box marginTop="20px">
-            <Text> <strong>Beisbol</strong><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum, aliquam ullam ipsam repudiandae sed, est adipisci doloremque eius rerum commodi ducimus laborum.</Text>
+            <Text fontSize="1.2rem"> <strong>Beisbol</strong><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum, aliquam ullam ipsam repudiandae sed, est adipisci doloremque eius rerum commodi ducimus laborum.</Text>
           </Box>
           <Box
           marginTop='30px'
@@ -62,7 +62,7 @@ const ItemTwo = () => {
             </Link>
           </Box>
           <Box marginTop="20px">
-            <Text> <strong>Beisbol</strong><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum, aliquam ullam ipsam repudiandae sed, est adipisci doloremque eius rerum commodi ducimus laborum.</Text>
+            <Text fontSize="1.2rem"> <strong>Beisbol</strong><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum, aliquam ullam ipsam repudiandae sed, est adipisci doloremque eius rerum commodi ducimus laborum.</Text>
           </Box>
           <Box
           marginTop='30px'
@@ -101,7 +101,7 @@ const ItemTwo = () => {
             </Link>
           </Box>
           <Box marginTop="20px">
-            <Text> <strong>Beisbol</strong><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum, aliquam ullam ipsam repudiandae sed, est adipisci doloremque eius rerum commodi ducimus laborum.</Text>
+            <Text fontSize="1.2rem"> <strong>Beisbol</strong><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum, aliquam ullam ipsam repudiandae sed, est adipisci doloremque eius rerum commodi ducimus laborum.</Text>
           </Box>
           <Box
           marginTop='30px'

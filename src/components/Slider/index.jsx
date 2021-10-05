@@ -45,7 +45,7 @@ const Carousel = () => {
                     backdropFilter='blur(4px)'
                     transition='0.5s ease'
                     >
-                      <Heading color="#fdfdfd" letterSpacing='3.5px'>
+                      <Heading fontSize="2rem" color="#fdfdfd" letterSpacing='3.5px'>
                         Developer
                       </Heading>
                     </Box>
@@ -72,7 +72,7 @@ const Carousel = () => {
                     backdropFilter='blur(4px)'
                     transition='0.5s ease'
                     >
-                      <Heading color="#fdfdfd" letterSpacing='3.5px'>
+                      <Heading fontSize="2rem" color="#fdfdfd" letterSpacing='3.5px'>
                         Customing
                       </Heading>
                     </Box>
@@ -99,7 +99,7 @@ const Carousel = () => {
                     backdropFilter='blur(4px)'
                     transition='0.5s ease'
                     >
-                      <Heading color="#fdfdfd" letterSpacing='3.5px'>
+                      <Heading fontSize="2rem" color="#fdfdfd" letterSpacing='3.5px'>
                         Play & Fun
                       </Heading>
                     </Box>
@@ -126,7 +126,7 @@ const Carousel = () => {
                     backdropFilter='blur(4px)'
                     transition='0.5s ease'
                     >
-                      <Heading color="#fdfdfd" letterSpacing='3.5px'>
+                      <Heading fontSize="2rem" color="#fdfdfd" letterSpacing='3.5px'>
                         Assist
                       </Heading>
                     </Box>
@@ -153,7 +153,7 @@ const Carousel = () => {
                     backdropFilter='blur(4px)'
                     transition='0.5s ease'
                     >
-                      <Heading color="#fdfdfd" letterSpacing='3.5px'>
+                      <Heading fontSize="2rem" color="#fdfdfd" letterSpacing='3.5px'>
                         Sale
                       </Heading>
                     </Box>
@@ -180,7 +180,7 @@ const Carousel = () => {
                     backdropFilter='blur(4px)'
                     transition='0.5s ease'
                     >
-                      <Heading color="#fdfdfd" letterSpacing='3.5px'>
+                      <Heading fontSize="2rem" color="#fdfdfd" letterSpacing='3.5px'>
                         Gym
                       </Heading>
                     </Box>
@@ -207,7 +207,7 @@ const Carousel = () => {
                     backdropFilter='blur(4px)'
                     transition='0.5s ease'
                     >
-                      <Heading color="#fdfdfd" letterSpacing='3.5px'>
+                      <Heading fontSize="2rem" color="#fdfdfd" letterSpacing='3.5px'>
                         decoct
                       </Heading>
                     </Box>
