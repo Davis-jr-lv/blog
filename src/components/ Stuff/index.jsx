@@ -44,7 +44,7 @@ const Stuff = () => {
         <Box width={{base:'100%', lg:'40%'}} paddingTop="30px">
           <Heading>Go to Beach</Heading>
           <Text>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut delectus, mollitia corrupti quia ex quam aliquid expedita quas enim animi asperiores ad debitis culpa amet. Unde laudantium id explicabo enim!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut delectus, mollitia corrupti quia ex quam aliquid expedita quas enim animi asperiores ad debitis culpa amet. Unde laudantium id explicabo enim! buena musica 
             <br/><br/>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusamus doloribus neque accusantium maiores, repellat ex eaque? Omnis in. akapellah
           </Text>
