@@ -8,6 +8,10 @@ import { Box } from "@chakra-ui/react"
 import Header1 from "../components/Delivery/header/index"
 import Hero from "../components/Hero/index"
 import Span from "../components/Span/index"
+import Carousel from "../components/Slider/index"
+import Tarousel from "../components/Slider/components/index"
+import Stuff from "../components/ Stuff/index"
+import Footer from "../components/Delivery/footer/index"
 
 const IndexPage = () => (
   <>
@@ -17,6 +21,11 @@ const IndexPage = () => (
   </Layout>
   <Hero/>
   <Span/>
+  
+  <Tarousel/>
+  <Carousel/>
+  <Stuff/>
+  <Footer/>
   </>
 )
 

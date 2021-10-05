@@ -4,7 +4,7 @@ import Beisbol from "../../../img/beisbol.jpg"
 import Develop from "../../../img/develop.jpg"
 import Game from "../../../img/Game.jpg"
 
-const Item = () => {
+const ItemTwo = () => {
   return(
     <Flex marginBottom="30px" justifyContent="space-between" flexWrap="wrap" width="100%">
       <Box marginBottom="20px" width={{base:"100%", md:"45%", lg:"31%"}} minWidth="300px" height="auto" boxShadow="0px 2px 5px 3px rgba(207,207,207,0.4)" background="#f3f3f3" 
@@ -128,4 +128,4 @@ const Item = () => {
     
   )
 }
-export default Item
+export default ItemTwo

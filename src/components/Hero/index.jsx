@@ -4,7 +4,7 @@ import Back from "../img/dev.jpg"
 
 const Hero = () => {
   return(
-    <Box padding='70px 0px 0px 5%' marginTop='1px' className="fondo" height='70vh' bgImage={Back} bgSize="cover" position='relative'
+    <Box padding='70px 0px 0px 5%' marginTop='1px' className="fondo" height={{base:"100vh", md:"500px"}} bgImage={Back} bgSize="cover" position='relative'
     _before={{
       content:"''",
       position: "absolute",
