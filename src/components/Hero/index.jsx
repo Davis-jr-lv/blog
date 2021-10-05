@@ -29,6 +29,7 @@ const Hero = () => {
         </Box>
         <Box width="70%">
           <Text
+          color='#333'
           fontSize='1.2rem'
           letterSpacing='1px'
           margin='0px'

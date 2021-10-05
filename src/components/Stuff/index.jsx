@@ -8,16 +8,16 @@ const Stuff = () => {
   return(
     <Flex direction="column" padding="0px 38px" width="100%">
       <Box textAlign="center" marginTop="80px" marginBottom="40px"> 
-        <Heading fontSize="2rem" m="0px">Things to do</Heading>
-        <Text>there are many things to do, let's get started </Text>
+        <Heading color='#333' fontSize="2rem" m="0px">Things to do</Heading>
+        <Text color='#333' >there are many things to do, let's get started </Text>
       </Box>
       <Flex flexWrap="wrap" marginBottom="30px" justifyContent="center" >
         <Box width={{base:'100%', lg:'50%'}} marginRight={{base:'0px', lg:'30px'}}> 
           <Image src={Beach} objectFit='cover'/>
         </Box>
         <Box width={{base:'100%', lg:'40%'}} paddingTop="30px">
-          <Heading fontSize="2rem">Go to Beach</Heading>
-          <Text fontSize="1.2rem">
+          <Heading color='#333' fontSize="2rem">Go to Beach</Heading>
+          <Text color='#333' fontSize="1.2rem">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut delectus, mollitia corrupti quia ex quam aliquid expedita quas enim animi asperiores ad debitis culpa amet. Unde laudantium id 
             <br/><br/>
             explicabo enim! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi esse, ex placeat adipisci quae unde, veniam dolor hic fuga, rem veritatis voluptates minus quod.
@@ -26,8 +26,8 @@ const Stuff = () => {
       </Flex>
       <Flex flexWrap="wrap" marginBottom="30px" justifyContent="center" >
         <Box width={{base:'100%', lg:'40%'}} paddingTop="30px">
-          <Heading fontSize="2rem">Go to Beach</Heading>
-          <Text fontSize="1.2rem">
+          <Heading color='#333' fontSize="2rem">Go to Beach</Heading>
+          <Text color='#333' fontSize="1.2rem">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut delectus, mollitia corrupti quia ex quam aliquid expedita quas enim animi asperiores ad debitis culpa amet. Unde laudantium id explicabo enim!
             <br/><br/>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium enim blanditiis, officiis pariatur sit et laboriosam tenetur, eligendi illo recusandae neque.
@@ -42,8 +42,8 @@ const Stuff = () => {
           <Image src={Basket} />
         </Box>
         <Box width={{base:'100%', lg:'40%'}} paddingTop="30px">
-          <Heading fontSize="2rem">Go to Beach</Heading>
-          <Text fontSize="1.2rem">
+          <Heading color='#333' fontSize="2rem">Go to Beach</Heading>
+          <Text color='#333' fontSize="1.2rem">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut delectus, mollitia corrupti quia ex quam aliquid expedita quas enim animi asperiores ad debitis culpa amet. Unde laudantium id explicabo enim!
             <br/><br/>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusamus doloribus neque accusantium maiores, repellat ex eaque? Omnis in.akapellah
