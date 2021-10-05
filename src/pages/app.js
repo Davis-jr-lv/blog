@@ -1,8 +1,9 @@
 import React from "react"
+import Hero from "../components/Hero/index"
 
-function App() {
-    return(
-        <>
-        </>
-    );
-}
+const App = () => (
+    <></>
+  )
+  
+  export default App
+  
