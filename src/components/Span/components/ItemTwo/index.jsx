@@ -1,8 +1,7 @@
 import * as React from "react"
 import { Box, Text, Button, Link, Flex, Image } from "@chakra-ui/react"
 import Beisbol from "../../../img/beisbol.jpg"
-import Develop from "../../../img/develop.jpg"
-import Game from "../../../img/Game.jpg"
+
 
 const ItemTwo = () => {
   return(
