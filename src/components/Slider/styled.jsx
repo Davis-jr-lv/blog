@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   width:100%;
   overflow:hidden;
   justify-contenr:center;
-  padding:0px 38px;
+  padding:0px 10px;
   .carousel{
     position:relative;
     ul{

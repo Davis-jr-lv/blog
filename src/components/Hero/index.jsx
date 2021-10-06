@@ -4,7 +4,7 @@ import Back from "../img/dev.jpg"
 
 const Hero = () => {
   return(
-    <Box padding='70px 0px 0px 5%' marginTop='1px' className="fondo" height={{base:"100vh", md:"500px"}} bgImage={Back} bgSize="cover" position='relative'
+    <Box padding='70px 0px 0px 5%' marginTop='1px' className="fondo" height={{base:"76vh", md:"500px"}} bgImage={Back} bgSize="cover"  paddingBottom="35px" position='relative'
     _before={{
       content:"''",
       position: "absolute",
@@ -18,7 +18,7 @@ const Hero = () => {
       <Box position='relative'>
         <Box marginBottom="20px">
           <Text
-          fontSize='3rem'
+          fontSize={{base:"2rem" , lg:"3rem"}}
           color='#333'
           fontWeight='900'
           letterSpacing='1.5px'
@@ -27,10 +27,10 @@ const Hero = () => {
             come with me, let's start
           </Text>
         </Box>
-        <Box width="70%">
+        <Box width={{base:"95%" , lg:"70%"}}>
           <Text
           color='#333'
-          fontSize='1.2rem'
+          fontSize={{base:"1rem" , lg:"1.2rem"}}
           letterSpacing='1px'
           margin='0px'
           > Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque esse quisquam ipsam dolores facilis ab repellendus voluptatibus molestiae perspiciatis incidunt. Quos nemo nisi veritatis amet maxime molestias nam eum? Quos.</Text>

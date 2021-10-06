@@ -5,11 +5,11 @@ import { useMediaQuery } from "@chakra-ui/react"
 import { HamburgerIcon } from '@chakra-ui/icons'
 
 const Header1 = () => { 
-    {/* const [isDesktop] = useMediaQuery("(min-width: 769px)")*/}
+    const [isDesktop] = useMediaQuery("(min-width: 769px)")
     
     return(
         <Box >
-        {/* {isDesktop ? ( */}
+         {isDesktop ? ( 
             <div>
 
                 <Box className='options'
@@ -21,77 +21,75 @@ const Header1 = () => {
                 boxShadow='0 0 5px #dedede'
                 
                 >
-                    <Flex justifyContent='space-between'>
+                    <Flex width="100%" justifyContent='space-between'>
                         <Box>
                             <Text 
-                            margin='0px'
+                            margin='-2px 20px 0px 0px'
                             padding='0px'
                             textTransform='uppercase'
                             >
                                 Davis jr
                             </Text>
                         </Box>
-                        <Wrapper>
-                            <List 
-                            display='flex'
-                            padding='0px'
-                            margin='0px'
-                            textTransform='uppercase'
-                            fontSize='.875rem'
-                            >
-                                <ListItem
-                                margin='0px 10px 0px 10px'
-                                
+                        <Box>
+                            <Wrapper>
+                                <List 
+                                display='flex'
+                                padding='0px'
+                                margin='0px'
+                                textTransform='uppercase'
+                                fontSize='.875rem'
                                 >
-                                    <Link href="/" className='nav'
-                                    margin='0px'
-                                    padding='21px 10px'
-                                    textDecoration='none !important'
-                                    position='relative'
+                                    <ListItem
+                                    margin='0px 10px 0px 10px'
+                                    
                                     >
-                                        Blog
-                                    </Link>
-                                </ListItem>
-                                <ListItem
-                                margin='0px 10px 0px 10px'
-                                
-                                >
-                                    <Link href="/" className='nav'
-                                    margin='0px'
-                                    padding='21px 10px'
-                                    textDecoration='none !important'
-                                    position='relative'
+                                        <Link href="/" className='nav'
+                                        margin='0px'
+                                        padding='21px 10px'
+                                        textDecoration='none !important'
+                                        position='relative'
+                                        >
+                                            Blog
+                                        </Link>
+                                    </ListItem>
+                                    <ListItem
+                                    margin='0px 10px 0px 10px'
+                                    
                                     >
-                                        Redes
-                                    </Link>
-                                </ListItem>
-                                <ListItem
-                                margin='0px 10px 0px 10px'
-                                
-                                >
-                                    <Link href="/" className='nav'
-                                    margin='0px'
-                                    padding='21px 10px'
-                                    textDecoration='none !important'
-                                    position='relative'
+                                        <Link href="/" className='nav'
+                                        margin='0px'
+                                        padding='21px 10px'
+                                        textDecoration='none !important'
+                                        position='relative'
+                                        >
+                                            Redes
+                                        </Link>
+                                    </ListItem>
+                                    <ListItem
+                                    margin='0px 10px 0px 10px'
+                                    
                                     >
-                                        Contacto
-                                    </Link>
-                                </ListItem>
-                            </List>
-                        </Wrapper>
+                                        <Link href="/" className='nav'
+                                        margin='0px'
+                                        padding='21px 10px'
+                                        textDecoration='none !important'
+                                        position='relative'
+                                        >
+                                            Contacto
+                                        </Link>
+                                    </ListItem>
+                                </List>
+                            </Wrapper>
+                        </Box>
                     </Flex>
                 </Box>
             </div>
-        {/* ) : ( 
+         ) : ( 
 
-            <Box display='flex' width='100%'>
+            <Flex direction="row" justifyContent="space-between" padding="1rem 20px 1rem 20px" display='flex' width='100%'>
                 <Box className='optionMobile'
-                paddingTop='1rem' 
-                paddingBottom='1rem' 
-                paddingLeft='20px'
-                paddingRight='20px'
-                boxShadow='0 0 5px #dedede'
+                padding="10px 0px 0px 0px"
                 >
                     <Text 
                         margin='0px'
@@ -125,9 +123,9 @@ const Header1 = () => {
                         </MenuList>
                     </Menu>
                 </Box>
-            </Box>
+            </Flex>
         )}
-        {/* */}
+        
         </Box>
     )
 }
